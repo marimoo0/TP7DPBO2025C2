@@ -6,7 +6,7 @@ Saya Khana Yusdiana NIM 2100991 mengerjakan soal TP 7 dalam mata kuliah Desain d
 
 ## -- Desain Program --
 
-![1]()
+![1](https://github.com/marimoo0/TP7DPBO2025C2/blob/6622a118607b117183e583d1f4749db8168f3108/Diagram.png)
 
 Program ini adalah aplikasi CRUD data film berbasis web menggunakan PHP OOP dan MySQL. Fitur utama mencakup:
 
