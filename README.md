@@ -1,4 +1,4 @@
-# TP 6 DPBO 2025
+# TP 7 DPBO 2025
 
 ## -- Janji --
 
@@ -17,25 +17,25 @@ Program ini adalah aplikasi CRUD data film berbasis web menggunakan PHP OOP dan 
 
 Struktur file:
 
-- `config.php` : konfigurasi koneksi database
-- `Film.php`, `Genre.php`, `Studio.php` : class model untuk tiap entitas
-- `form_film.php` : tampilan form tambah/edit film
-- `list_film.php` : tampilan daftar film
-- `index.php` : controller utama
-- `db_film.sql` : file setup database
+- config.php : konfigurasi koneksi database
+- Film.php, Genre.php, Studio.php : class model untuk tiap entitas
+- form_film.php : tampilan form tambah/edit film
+- list_film.php : tampilan daftar film
+- index.php : controller utama
+- db_film.sql : file setup database
 
 ## -- Penjelasan Alur --
 
 ### Menu Awal:
 
-- Menampilkan semua data film dari tabel `film`
+- Menampilkan semua data film dari tabel film
 - Disertai tombol tambah, edit, hapus dan fitur pencarian
 
 ### Tambah/Edit Film:
 
 - Form berisi input: Judul, Sutradara, Tahun Rilis, Genre (dropdown), dan Studio (dropdown)
 - Data genre dan studio diambil dari tabel masing-masing
-- Saat menyimpan, data akan dimasukkan/diupdate di tabel `film`
+- Saat menyimpan, data akan dimasukkan/diupdate di tabel film
 
 ### Hapus Film:
 
@@ -43,14 +43,20 @@ Struktur file:
 
 ### Pencarian:
 
-- Pencarian dilakukan berdasarkan `judul` film
+- Pencarian dilakukan berdasarkan judul film
 
 ## -- Dokumentasi saat Program Dijalankan --
 
 ### Halaman List Film
 
-![1]()
+![1](https://github.com/marimoo0/TP7DPBO2025C2/blob/e2db291736e3aadd258bf18ae839b065ccb0a950/SS/Screenshot_1.png)
+
+### Search Film
+
+![1](https://github.com/marimoo0/TP7DPBO2025C2/blob/e2db291736e3aadd258bf18ae839b065ccb0a950/SS/Screenshot_2.png)
 
 ### Form Tambah/Edit Film
 
-![1]()
+![1](https://github.com/marimoo0/TP7DPBO2025C2/blob/e2db291736e3aadd258bf18ae839b065ccb0a950/SS/Screenshot_4.png)
+
+![1](https://github.com/marimoo0/TP7DPBO2025C2/blob/e2db291736e3aadd258bf18ae839b065ccb0a950/SS/Screenshot_3.png)
